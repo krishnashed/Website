@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="background_styles.css">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="searchnav.css">
+    <link rel="stylesheet" href="footer.css">
+    <script src="script.js" defer></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>socie tree</title>
+</head>
+<body>
+    <nav class="navbar">
+        <!--so this is for the the hamburger menu -->
+        
+        <div class="brand-title"> <img src="images/SocieTree Logo.jpeg" width="70" height="55">Socie Tree</div> <!-- the icon needs a fix-->
+        <a href="#" class="toggle-button">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </a>
+
+        <!--this is the nav section -->
+
+        <div class="navbar-links">
+            <ul>
+                <li><a href="index.html">volunteering opportunities</a></li>
+                <li><a href="blog.html">Collaborative Events</a></li>
+                <li><a href="forum.html">Forum</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="ngo.html">NGO Dashboard</a></li>
+                <li><button type = 'btn-primary' class="btn-1">Login/Sign Up</button></li> <!-- fix this -->
+            </ul>
+        </div>
+    </nav>
+
+    <!-- this is the search bar and it requires a lot of work to be done-->
+    <div class="topnav">
+        <a class="active" href="#">SocieTree</a>
+        
+        <div class="search-container">
+          <form action="/action_page.php">
+            <input type="text" placeholder="Search.." name="search">
+            <button type="submit"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" class="_2_hbq desktop-header-search-icon-fill button-hover-fill" data-hook="search-icon">
+                <path fill-rule="evenodd" d="M19.854 19.146c.195.196.195.512 0 .708-.196.195-.512.195-.708 0l-3.708-3.709C14.118 17.3 12.391 18 10.5 18 6.358 18 3 14.642 3 10.5 3 6.358 6.358 3 10.5 3c4.142 0 7.5 3.358 7.5 7.5 0 1.891-.7 3.619-1.855 4.938l3.709 3.708zM17 10.5C17 6.91 14.09 4 10.5 4S4 6.91 4 10.5 6.91 17 10.5 17s6.5-2.91 6.5-6.5z">
+                </path>
+                </svg></button>
+          </form>
+        </div>
+      </div> 
+      <br>
+      <br>
+
+      <!-- forum heading-->
+      <div class="forum-heading">
+          <h1 class="forum-header">Forum at SocieTree </h1>
+          <p class="sub-header">Join an active community now or start one by contacting us</p>
+      </div>
+
+      <div class="row">
+        <div class="column-1">
+          <div class="card">
+            <img src="images/volunt.jpg" alt="Jane" style="width:100%; height: 254px;">
+            <div class="container">
+                <div class="first-line">
+                    <h2 style="font-size: 20px; font-weight:3;">SocieTree Volunteers</h2>
+                    <button class="btn default">Follow</button>
+                </div>
+              <img src="" alt=""> <!-- put the chat svg here-->
+              <p style="font-size: 16px; font-weight: 4;">Show interest towards proposed campaigns, volunteering positions and get a chance to be featured on our website</p>
+            </div>
+          </div>
+        </div>
+      
+        <div class="column-1">
+            <div class="card">
+              <img src="images/hands.jpg" alt="Jane" style="width:100%; height: 254px;">
+              <div class="container">
+                  <div class="first-line">
+                      <h2 style="font-size: 20px; font-weight:3;">Partner Collaborations</h2>
+                      <button class="btn default">Follow</button>
+                  </div>
+                <img src="" alt=""> <!-- put the chat svg here-->
+                <p style="font-size: 16px; font-weight: 4;">Representatives from organisations discuss and organise collaborative events. Please follow the forum to receive the ...</p>
+              </div>
+            </div>
+          </div>   
+      </div> 
+
+      <p style="display: flex; padding-left: 24%;">New Posts</p>
+
+      <!-- this are the posts-->
+
+      <div class="row-2">
+          <div class="column">
+            <div class="card">
+                <div class="container">
+                    <div class="chip">
+                        <img src="pic1.jpg" alt="Person" width="60" height="75">
+                       <p>Societree</p>
+                    </div> 
+                    <div class="some-intro">
+                    <p style="font-size: 10px; margin-top: -8px;">Nov 2</p>
+                    <p style="font-weight: bold lighter;">Diwali Donations - Zomato Feeding India Ghaziabad</p>
+                    <p style="color: grey; font-size: 13px;">Discussion</p>
+                    <p style="font-size: 14px;">Zomato Feeding India Ghaziabad has ....</p>
+                    </div>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" stroke="none" class="forum-icon-fill">
+                        <title>0 comments</title>
+                        <path fill-rule="evenodd" d="M6 5h12c1.104 0 2 .896 2 2v8c0 1.104-.896 2-2 2h-4.36l-4.884 2.93c-.079.047-.168.07-.256.07-.086 0-.17-.021-.247-.065C8.097 19.846 8 19.68 8 19.5V17H6c-1.104 0-2-.896-2-2V7c0-1.104.896-2 2-2zm13 10V7c0-.553-.447-1-1-1H6c-.553 0-1 .447-1 1v8c0 .553.447 1 1 1h3v2.621L13.36 16H18c.553 0 1-.447 1-1z"></path>
+                    </svg>
+
+                </div>
+            </div>
+          </div>
+          <div class="column">
+            <div class="card">
+                <div class="container">
+                    <div class="chip">
+                        <img src="pic2.jpg" alt="Person" width="60" height="75">
+                       <p> someRandom</p>
+                    </div> 
+                    <div class="some-intro">
+                        <p style="font-size: 10px; margin-top: -8px;">Nov 2</p>
+                        <p style="font-weight: bold lighter;">Diwali Donations - Zomato Feeding India Ghaziabad</p>
+                        <p style="color: grey; font-size: 13px;">Discussion</p>
+                        <p style="font-size: 14px;">Zomato Feeding India Ghaziabad has ....</p>
+                        </div>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" stroke="none" class="forum-icon-fill">
+                            <title>0 comments</title>
+                            <path fill-rule="evenodd" d="M6 5h12c1.104 0 2 .896 2 2v8c0 1.104-.896 2-2 2h-4.36l-4.884 2.93c-.079.047-.168.07-.256.07-.086 0-.17-.021-.247-.065C8.097 19.846 8 19.68 8 19.5V17H6c-1.104 0-2-.896-2-2V7c0-1.104.896-2 2-2zm13 10V7c0-.553-.447-1-1-1H6c-.553 0-1 .447-1 1v8c0 .553.447 1 1 1h3v2.621L13.36 16H18c.553 0 1-.447 1-1z"></path>
+                        </svg>
+                </div>
+            </div>
+          </div>
+          <div class="column">
+            <div class="card">
+                <div class="container">
+                    <div class="chip">
+                        <img src="pic3.jpg" alt="Person" width="60" height="75">
+                       <p> someRandom</p>
+                    </div> 
+                    <div class="some-intro">
+                        <p style="font-size: 10px; margin-top: -8px;">Nov 2</p>
+                        <p style="font-weight: bold lighter;">Diwali Donations - Zomato Feeding India Ghaziabad</p>
+                        <p style="color: grey; font-size: 13px;">Discussion</p>
+                        <p style="font-size: 14px;">Zomato Feeding India Ghaziabad has ....</p>
+                        </div>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" stroke="none" class="forum-icon-fill">
+                            <title>0 comments</title>
+                            <path fill-rule="evenodd" d="M6 5h12c1.104 0 2 .896 2 2v8c0 1.104-.896 2-2 2h-4.36l-4.884 2.93c-.079.047-.168.07-.256.07-.086 0-.17-.021-.247-.065C8.097 19.846 8 19.68 8 19.5V17H6c-1.104 0-2-.896-2-2V7c0-1.104.896-2 2-2zm13 10V7c0-.553-.447-1-1-1H6c-.553 0-1 .447-1 1v8c0 .553.447 1 1 1h3v2.621L13.36 16H18c.553 0 1-.447 1-1z"></path>
+                        </svg>
+                    </div>
+            </div>
+          </div>
+      </div>
+    
+
+   
+
+
+
+
+    <footer class="footer">
+        <div class="l-footer">
+            <h1 class="foot-head">Socie Tree</h1>
+                <p>A platform to connect NGOs with Volunteers and Donors. 
+                  With SocieTree, NGOs can market their events and activities 
+                  and collaborate with other organisations 
+                  in different parts of the country. 
+                  Volunteers can also take up skill based volunteering 
+                  positions and do their part for society.</p>
+        </div> 
+        <ul class="r-footer">
+            <li>
+                <h2>Quick Links</h2>
+                <ul class="box">
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">About Us</a></li>
+                </ul>
+            </li>
+         
+            <li>
+                <h2>Legal</h2>
+                <ul class="box">
+                    <li><a href="#">privacy policy</a></li>
+                    <li><a href="#">Terms of Use</a></li>
+                    <li><a href="#">Contract</a></li>
+                </ul>
+            </li>
+        </ul>  
+
+        <div class="b-footer">
+            <p> All Rights Reserved by &copy; Societree 2020 </p>
+        </div>
+    </footer>
+
+</body>
+</html>
+
+
+
